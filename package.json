@@ -5,7 +5,17 @@
   },
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "exports": {
+    ".": "./dist/main.js"
+  },
+  "typesVersions": {
+    "*": {
+      "main.d.ts": [
+        "./dist/main.js"
+      ]
+    }
+  },
   "type": "module",
   "files": [
     "dist"
