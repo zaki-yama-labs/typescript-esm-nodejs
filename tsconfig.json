@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "./dist",
+    "rootDir": "src",
+    "outDir": "dist",
     "target": "ES2020",
     "lib": ["ES2020", "DOM"],
 
@@ -15,5 +15,6 @@
     // In order to import a legacy CommonJS module
     "allowSyntheticDefaultImports": true,
     "declaration": true,
-  }
+  },
+  "include": ["src/**/*"]
 }
