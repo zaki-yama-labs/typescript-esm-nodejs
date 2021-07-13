@@ -1,8 +1,12 @@
 {
-  "name": "typescript-template",
-  "version": "1.0.0",
+  "name": "@zaki-yama/typescript-esm-example",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "lint": "run-p -l -c --aggregate-output lint:*",
